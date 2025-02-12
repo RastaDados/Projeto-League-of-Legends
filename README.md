@@ -25,6 +25,8 @@ Essa tabela exibe dados das partidas.
 
 <h2>Dados do conjunto de jogos:</h2>
 
+Essa tabela exibe dados dos jogos disputados.
+
 <b>Duração</b> - Duração da rodada do jogo, formatada como "%m/%d/%yyyy"
 
 <b>vitória</b> - Equipe vencedora
@@ -32,6 +34,8 @@ Essa tabela exibe dados das partidas.
 <br>
 
 <h2>Dados da equipe:</h2>
+
+Essaq tabela exibe dados das equipes.
 
 <b>TeamN_{Attributes}</b> -  Designação do time (1 representa o time da casa, 2 representa o time visitante)
 
@@ -48,6 +52,8 @@ Essa tabela exibe dados das partidas.
 <br>
 
 <h2>Dados do jogador:</h2>
+
+Essa tabela exibe dados dos jogadores das equipes
 
 <b>{Team}_playerN_{Atributos}</b> - Posição do jogador (1-TOP; 2-JUG; 3-MID; 4-ADC; 5-SUP)
 
@@ -84,4 +90,5 @@ Essa tabela exibe dados das partidas.
 <b>player_vs.csv</b> - Comparação de desempenho individual de jogadores, rastreando confrontos entre jogadores e métricas de desempenho individual ao longo de uma temporada competitiva.
 
 <b>hero_vs.csv</b> - Análise de desempenho de confrontos de campeões, fornecendo insights detalhados sobre o desempenho de diferentes campeões entre si em partidas competitivas.
+
 <b>hero_chosen.csv</b> - Preferências históricas de seleção de campeões, revelando as escolhas de campeões e estratégias dos jogadores ao longo da temporada competitiva.
