@@ -160,37 +160,62 @@ Remoção de Nulos, vazios, unpivot de colunas, normalização dos dados, altera
 
 <h2>3. Análise Exploratória</h2>
 
-Principais Estatísticas:
+<h3><b>Principais Estatísticas:</b></h3>
 Médias, medianas, distribuições, correlações
-Visualizações:
+
+<br>
+
+<h3><b>Visualizações:</b></h3>
 Cartão, Gráfico de barras clusterizado, Gráfico de linhas, Segmentador de dados, Gráfico de área empilhado, Gráfico de colunas empilhadas, Gráfico de área, Gráfico de colunas clusterizado, Matriz e Gráfico de barras empilhadas.
-Tendências e Padrões:
+
+<br>
+
+<h3><b>Tendências e Padrões:</b></h3>
 Banimentos de campeões por times, Quantidade de Dragões, Barões e torres por times, podendo filtrar e fazer uma comparação entre dois times.
 Campeões mais jogados e mais vitoriosos.
 Jogadores mais vitoriosos, que deram mais danos, que obtiveram mais abates e assistências.
 Times mais vitoriosos, que fazem mais objetivos.
-________________________________________
-4. Modelagem e KPIs
-Dashboards e Relatórios:
-Dashboard de Jogos: Exibe o resumo geral com os principais indicadores sobre os jogos disputados de todos os campeonatos, podendo filtrar por times.
-Dashboard de Campeões: Exibe o resumo geral da performance de campeões por times, jogadores e jogos disputados.
-Dashboard de Campeões VS: Exibe os detalhes de Campeões vs Campeões.
-Dashboard de Players: Exibe o resumo geral da performance de jogadores.
-Dashboard de Players VS: Exibe os detalhes comparando jogador vs jogador.
-Dashboard de Time: Exibe o resumo geral dos times com os principais indicadores.
-Insights Gerados:
-Aumento de 25% no acerto de apostas esportivas no cenário competitivo de League of Legends.
-________________________________________
 
-5. Conclusão e Próximos Passos
-Resumo dos Principais Resultados:
+<hr>
+<br>
+
+<h2>4. Modelagem e KPIs</h2>
+
+<h3><b>Dashboards e Relatórios:</b></h3>
+<br>
+<b>Dashboard de Jogos:</b> Exibe o resumo geral com os principais indicadores sobre os jogos disputados de todos os campeonatos, podendo filtrar por times.
+<b>Dashboard de Campeões:</b> Exibe o resumo geral da performance de campeões por times, jogadores e jogos disputados.
+<b>Dashboard de Campeões VS:</b> Exibe os detalhes de Campeões vs Campeões.
+<b>Dashboard de Players:</b> Exibe o resumo geral da performance de jogadores.
+<b>Dashboard de Players VS:</b> Exibe os detalhes comparando jogador vs jogador.
+<b>Dashboard de Time:</b> Exibe o resumo geral dos times com os principais indicadores.
+
+<br>
+
+<h3><b>Insights Gerados:</b></h3>
+Aumento de 25% no acerto de apostas esportivas no cenário competitivo de League of Legends.
+
+<hr>
+<br>
+
+<h2>5. Conclusão e Próximos Passos</h2>
+
+<h3><b>Resumo dos Principais Resultados:</b></h3>
 Aprendi bastante sobre modelagem de dados e criação de Data Warehouse, principalmente sobre o processo de ETL e normalização dos dados.
-Limitações do Projeto:
+
+<br>
+
+<h3><b>Limitações do Projeto:</h3></b>
 Base de dados sem documentação, tive que passar um dia inteiro apenas documentando e estudando os dados que iria usar.
 Dados totalmente desnormalizados, todos os dados em um arquivo simples, altamente bagunçado e totalmente desestruturado.
-Sugestões para Melhorias Futuras:
+
+<br>
+  
+<h3><b></b>Sugestões para Melhorias Futuras:</h3></b>
 Trazer insights futuros sobre as organizações (Times) incluindo staffs, coaches, etc.
 Melhorar alguns gráficos, e trazer opções de mais filtros.
 Trazer um novo Dashboard para analisar os campeonatos sendo filtrados por regiões.
-________________________________________
+
+<br>
+<hr>
 
