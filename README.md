@@ -35,7 +35,7 @@ Essa tabela exibe dados dos jogos disputados.
 
 <h2>Dados da equipe:</h2>
 
-Essaq tabela exibe dados das equipes.
+Essa tabela exibe dados das equipes.
 
 <b>TeamN_{Attributes}</b> -  Designação do time (1 representa o time da casa, 2 representa o time visitante)
 
@@ -92,3 +92,105 @@ Essa tabela exibe dados dos jogadores das equipes
 <b>hero_vs.csv</b> - Análise de desempenho de confrontos de campeões, fornecendo insights detalhados sobre o desempenho de diferentes campeões entre si em partidas competitivas.
 
 <b>hero_chosen.csv</b> - Preferências históricas de seleção de campeões, revelando as escolhas de campeões e estratégias dos jogadores ao longo da temporada competitiva.
+
+<hr>
+<br>
+
+<h1>Documentação mais Detalhada em Vídeo</h1>
+
+<h2>Processo de ETL</h2>
+<h4><a href="https://www.youtube.com/watch?v=AphyvqN_cC0&list=PL32Jw9MJZGxU7ZPl_HRPCE8jHXt1KDL5g&index=2&ab_channel=MateusFran%C3%A7a-AnalistadeBi"> <b>Acesse aqui</b> </a></h4>
+
+<br>
+
+<h2>Processo de Criação do Dashboard</h2>
+<h4><a href="https://www.youtube.com/watch?v=F023oyW_W5I&list=PL32Jw9MJZGxU7ZPl_HRPCE8jHXt1KDL5g&index=2&ab_channel=MateusFran%C3%A7a-AnalistadeBi"> <b>Acesse aqui</b></a></h4>
+
+<hr>
+<br>
+
+<h1>Documentação Escrita</h1>
+
+<h2>1. Resumo do Projeto</h2>
+
+<br>
+
+<h3><b>Competitivo League of Legends</b></h3>
+
+<br>
+
+<h3><b>Objetivo:</b></h3> 
+Com o aumento das apostas esportivas no cenário de E-sports (Esportes Eletrônicos) e comigo já fazendo parte desse mundo de apostas há algum tempo, me vi na responsabilidade de criar um Dashboard Analítico para me auxiliar e também auxiliar diversos apostadores a tomar decisões fundadas e baseadas em dados reais e verídicos, aumentando assim a chance de sucesso nas apostas no cenário competitivo do jogo League of Legends.
+
+<br>
+
+<h3><b>Fonte dos Dados:</b></h3>
+Data Warehouse, Arquivo Delimitado por Vírgula, arquivos CSV
+
+<br>
+
+<h3><b>Ferramentas Utilizadas:</b></h3> 
+Power BI, SQL Server Management Studio 20, Visual Studio 2022 (SSIS)
+
+<hr>
+<br>
+
+<h2>2. Coleta e Preparação dos Dados</h2>
+
+<h2><b>Descrição da Base</b></h2>
+
+<br>
+
+<h3><b>Quantidade de registros:</b></h3>
+1.206.725 Registros
+
+<br>
+
+<h3><b>Principais colunas:</b></h3> 
+MatchID, matchType, conjunto de jogos, MatchDate, Duração, vitória, TeamN, região, Barão, Dra, Torres destruídas, {Team}_banN, {Team}_playerN_{Atributos}, {Team}_{Player}_name,{Equipe}_{Jogador}_escolha.
+
+<br>
+
+<h3><b>Tratamento de Dados:</b></h3>
+Toda a parte de ETL foi feita no Visual Studio (SSIS), e depois carregado em um Data Warehouse criado.
+Remoção de Nulos, vazios, unpivot de colunas, normalização dos dados, alteração de tipos de dados, extração de caracteres, mudança na regição padrão de data.
+
+<br>
+<hr>
+
+<h2>3. Análise Exploratória</h2>
+
+Principais Estatísticas:
+Médias, medianas, distribuições, correlações
+Visualizações:
+Cartão, Gráfico de barras clusterizado, Gráfico de linhas, Segmentador de dados, Gráfico de área empilhado, Gráfico de colunas empilhadas, Gráfico de área, Gráfico de colunas clusterizado, Matriz e Gráfico de barras empilhadas.
+Tendências e Padrões:
+Banimentos de campeões por times, Quantidade de Dragões, Barões e torres por times, podendo filtrar e fazer uma comparação entre dois times.
+Campeões mais jogados e mais vitoriosos.
+Jogadores mais vitoriosos, que deram mais danos, que obtiveram mais abates e assistências.
+Times mais vitoriosos, que fazem mais objetivos.
+________________________________________
+4. Modelagem e KPIs
+Dashboards e Relatórios:
+Dashboard de Jogos: Exibe o resumo geral com os principais indicadores sobre os jogos disputados de todos os campeonatos, podendo filtrar por times.
+Dashboard de Campeões: Exibe o resumo geral da performance de campeões por times, jogadores e jogos disputados.
+Dashboard de Campeões VS: Exibe os detalhes de Campeões vs Campeões.
+Dashboard de Players: Exibe o resumo geral da performance de jogadores.
+Dashboard de Players VS: Exibe os detalhes comparando jogador vs jogador.
+Dashboard de Time: Exibe o resumo geral dos times com os principais indicadores.
+Insights Gerados:
+Aumento de 25% no acerto de apostas esportivas no cenário competitivo de League of Legends.
+________________________________________
+
+5. Conclusão e Próximos Passos
+Resumo dos Principais Resultados:
+Aprendi bastante sobre modelagem de dados e criação de Data Warehouse, principalmente sobre o processo de ETL e normalização dos dados.
+Limitações do Projeto:
+Base de dados sem documentação, tive que passar um dia inteiro apenas documentando e estudando os dados que iria usar.
+Dados totalmente desnormalizados, todos os dados em um arquivo simples, altamente bagunçado e totalmente desestruturado.
+Sugestões para Melhorias Futuras:
+Trazer insights futuros sobre as organizações (Times) incluindo staffs, coaches, etc.
+Melhorar alguns gráficos, e trazer opções de mais filtros.
+Trazer um novo Dashboard para analisar os campeonatos sendo filtrados por regiões.
+________________________________________
+
