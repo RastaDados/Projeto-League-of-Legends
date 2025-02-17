@@ -1,4 +1,4 @@
-<h1>Projeto Competitivo de League of Legends</h1>
+<h1>Competitivo E-sports League of Legends</h1>
 <hr>
 Este projeto foi desenvolvido com o intuito de auxiliar apostadores na tomada de decisões melhores, afim de aumentar a probabilidade de acerto de suas apostas no competitivo de Esports do jogo League of Legends.
 
